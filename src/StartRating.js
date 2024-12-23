@@ -21,7 +21,7 @@ StartRating.propTypes = {
     onSetRating: PropTypes.func,
   };
 
-export default function StartRating({
+ function StartRating({
     maxRating = 5, 
     color="#fcc419", 
     size=48,
@@ -67,7 +67,7 @@ export default function StartRating({
     </div>
     );
 }
-
+export default StartRating;
 
 function Star({onRate, full, onHoverIn, onHoverOut, color, size }){
     

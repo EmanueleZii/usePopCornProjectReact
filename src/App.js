@@ -1,4 +1,5 @@
 import { useState } from "react";
+import StartRating from "./StartRating";
 import "./App.css";
 
 const tempMovieData = [
