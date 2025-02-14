@@ -7,8 +7,11 @@ import { useMovies } from "./useMovies";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
+/*
+Use Your Key On:http://www.omdbapi.com/
+*/ 
 
-const KEY = "ef22e03e";
+const KEY = "Use Your Key";
 
 export default function App() {
   const [query, setQuery] = useState("");
